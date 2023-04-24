@@ -2,7 +2,7 @@
 
 This project is a small productivity react app 
 
-
+![alt-text](pomotivity.gif)
 
 ## Available Scripts
 
