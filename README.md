@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pomotivity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a small productivity app 
 
 ## Available Scripts
 
