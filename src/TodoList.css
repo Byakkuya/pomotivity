@@ -1,0 +1,118 @@
+.todo-list-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  animation: slideInFromLeft 0.9s ease-out;
+}
+
+.todo-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #333;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+.todo-add-button {
+  background-color: #4c99af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-add-button:hover {
+  background-color: #43a047;
+}
+
+.todo-delete-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.todo-complete-button {
+  background-color: #f5f5f5;
+  color: #2f4ab6;
+  border: 2px solid #4c62b7;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-complete-button:hover {
+  background-color: #5c6cae;
+  color: white;
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  
+}
+
+.todo-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,81 @@
+.pomodoro-clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  opacity: 100%;
+  background: transparent;
+  
+}
+
+.pomodoro-clock {
+  background-color: transparent;
+  width: 500px;
+  height:500px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.session-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.time-left {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.manual-time-input {
+  margin-top: 16px;
+  font-size: 20px;
+  padding: px;
+  width: 80px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-button,
+.reset-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  color: #555;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+}
+
+.timer-button.start {
+  color: #3e8ab6;
+}
+
+.timer-button.pause {
+  color: #000000;
+}
+
+.reset-button {
+  color: #000000;
+}
