@@ -1,6 +1,8 @@
 # Pomotivity
 
-This project is a small productivity app 
+This project is a small productivity react app 
+
+
 
 ## Available Scripts
 
