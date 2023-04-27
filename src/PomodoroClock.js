@@ -45,14 +45,14 @@ function PomodoroClock() {
   };
 
   return (
-    <div className="pomodoro-clock-container">
+    <div className="pomodoro-clock-container" data-testid="pomotest">
       <div className={`pomodoro-clock ${isActive ? 'active' : ''}`}>
         <h2 className="session-title">{session === 'work' ? 'Work' : 'Break'}</h2>
         <h1 className="time-left">{formatTimeLeft(timeLeft)}</h1>
-        <input className="manual-time-input" type="number" min="1" max="60" value={manualTime} onChange={handleManualTimeChange} />
+        <input className="manual-time-input" type="number" min="1" max="60" value={manualTime} onChange={handleManualTimeChange}  data-testid="timerinput"/>
         <div className="button-container">
           <button className={`timer-button ${isActive ? 'pause' : 'start'}`} onClick={toggleTimer}>{isActive ? 'Pause' : 'Start'}</button>
-          <button className="reset-button" onClick={resetTimer}>Reset</button>
+          <button className="reset-button" onClick={resetTimer} data-testid="reset">Reset</button>
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ function TodoList() {
   }
 
   return (
-    <div className="todo-list-container">
+    <div className="todo-list-container" data-testid="todotest">
       <h1 className="todo-header">𝚆𝚛𝚒𝚝𝚎 𝚢𝚘𝚞𝚛 𝚝𝚊𝚜𝚔𝚜 𝙷𝚎𝚛𝚎 !!</h1>
       <form className="todo-form" onSubmit={handleSubmit}>
         <input
@@ -45,7 +45,7 @@ function TodoList() {
             <span className="todo-text">{todo.text}</span>
             <div>
               <button className="todo-delete-button" onClick={() => handleDelete(index)}>Delete</button>
-              <button className="todo-complete-button" onClick={() => handleComplete(index)}>
+              <button className="todo-complete-button" onClick={() => handleComplete(index)} data-testid="complete">
                 {todo.completed ? 'Mark Incomplete' : 'Mark Complete'}
               </button>
             </div>
