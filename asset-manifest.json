@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pomotivity/static/css/main.995e28bb.css",
+    "main.js": "/pomotivity/static/js/main.433f61b0.js",
+    "static/js/787.d0e1e32a.chunk.js": "/pomotivity/static/js/787.d0e1e32a.chunk.js",
+    "static/media/blue.jpg": "/pomotivity/static/media/blue.bc89b3a18c28fa7a355b.jpg",
+    "index.html": "/pomotivity/index.html",
+    "main.995e28bb.css.map": "/pomotivity/static/css/main.995e28bb.css.map",
+    "main.433f61b0.js.map": "/pomotivity/static/js/main.433f61b0.js.map",
+    "787.d0e1e32a.chunk.js.map": "/pomotivity/static/js/787.d0e1e32a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.995e28bb.css",
+    "static/js/main.433f61b0.js"
+  ]
+}
